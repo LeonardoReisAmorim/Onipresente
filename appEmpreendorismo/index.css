@@ -1,0 +1,115 @@
+@media only screen and (max-width: 480px) {
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    
+    .logo{
+        padding: 0.1% 0% 0.1% 0%;
+        width: 100vw;
+    }
+
+    .logo p{
+        font-size: large;
+        text-align: center;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        height: 7%;
+        background-color: #f5f5f5;
+     }
+
+     .containerFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+      }
+
+      .containerFooter > div {
+        width: 100vw;
+        height: 100%;
+        color: black;
+        font-size: 150%;
+        margin-top: 1%;
+      }
+
+      .homePage{
+        width: 100vw;
+        height: 83.8vh;
+        background-color: #f5f5f5;
+        margin-top: -3%;
+      }
+
+      .apresentation{
+        text-align: center;
+        padding-top: 1%;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 4%;
+      }
+
+      .watch{
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background-color: #10B5BF;
+        width: 50%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        position: absolute;
+        top: 83%;
+        left: 50%;
+        margin: 0px 0 0 -25%;
+      }
+
+      a{
+        text-decoration: underline;
+        color: black;
+      }
+
+      img{
+        border-radius: 10px;
+      }
+
+      .logo{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        background-color: #10B5BF;
+        margin-top: -2%;
+      }
+
+      .description{
+        text-align: center;
+        margin-top: -20px;
+      }
+
+      .imgPlaces{
+        margin-left: 7%;
+        width: 85%;
+        height: 55%;
+      }
+
+      .apresentationPlaces{
+        margin: 0 10px 0 10px;
+        text-align: justify;
+      }
+}
+
